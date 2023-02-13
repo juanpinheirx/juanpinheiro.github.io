@@ -1,0 +1,14 @@
+.card-text {
+	font-size: large;
+	font-style: italic;
+}
+.card-title {
+	font-size: larger;
+}
+.card-body {
+	width: fit-content;
+	background-color: antiquewhite;
+}
+.list-group-item {
+	background-color: antiquewhite;
+}
