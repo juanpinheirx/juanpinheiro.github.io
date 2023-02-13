@@ -1,5 +1,5 @@
 .card-text {
-	font-size: large;
+	font-size: 30px;
 	font-style: italic;
 }
 .card-title {
@@ -11,4 +11,8 @@
 }
 .list-group-item {
 	background-color: antiquewhite;
+}
+.trigger {
+	font-size: 25px;
+	margin-left: 15px;
 }
