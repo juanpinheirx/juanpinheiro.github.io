@@ -1,6 +1,7 @@
 .card-text {
-	font-size: 30px;
+	font-size: 20px;
 	font-style: italic;
+	font-weight: 100;
 }
 .card-title {
 	font-size: larger;
@@ -8,11 +9,56 @@
 .card-body {
 	width: fit-content;
 	background-color: antiquewhite;
+	display: inline;
 }
 .list-group-item {
 	background-color: antiquewhite;
 }
 .trigger {
-	font-size: 25px;
+	font-size: 15px;
 	margin-left: 15px;
+
+}
+.card {
+	background-color: antiquewhite;
+	width: 0rem;
+
+}
+.but {
+	padding: 0 7px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	margin-left: 33px;
+}
+.btn {
+	display: inline-block;
+	margin: 0 8px;
+	text-align: center;
+}
+.row {
+	align-content: center;
+}
+
+.aside {
+	padding: 10%;
+	display: flex;
+}
+
+.fullPage {
+	width: 0%;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.thingIdo {
+	margin-left: 10px;
+	height: 0%;
+}
+
+@media screen and (max-width: 600px) {
+	
 }

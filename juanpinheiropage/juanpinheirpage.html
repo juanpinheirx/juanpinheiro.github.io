@@ -10,8 +10,12 @@
 	<link rel="stylesheet" href="script.js">
 	<link rel="stylesheet" href="style.css">
 </head>
+<section class="fullPage">
 <body id="fullBody" style="background-color:darkolivegreen;">
-	<header>
+
+	<canvas class="particles-js-canvas-el" width="1438" height="948" style="width: 100%; height: 100%;"></canvas>
+
+	<aside>
 		<h1 class="passport">
 			<div class="card" style="width: 19rem;">
 			<img src="https://ca.slack-edge.com/TMDDFEPFU-U049PKSLNFJ-c82a67d1fb34-512" class="card-img-top" alt="...">
@@ -21,26 +25,35 @@
 				if success == True: <br>
 					celebrate() <br>
 				while success == False: <br>
-					tryAgain()
+					tryAgain() <br>
 					beAwesome()
 			</p>
 			</div>
-			<div class="trigger" style="width: 7rem; backdrop-filter: grey;"><a target="_blank" class="page-link" href="https://www.linkedin.com/in/juanpinheirx/" >LinkedIn</a></div>
+			<div class="row">
+				<div class="but">
+				  <div class="card1">
+					<div class="button">
+					  <a href="https://www.linkedin.com/in/juanpinheirx/" class="btn btn-primary" style="background-color: grey;" target="_blank">linkedIn</a>
+					  <a href="https://www.instagram.com/teacherjuanpinheiro/" class="btn btn-primary" style="background-color: grey;" target="_blank">instagram</a>
+					</div>
+				  </div>
+				</div>
+			  </div>
 		  </div>
 		</h1>
-	</header>
+	</aside>
 	<section class="thingIdo">
 		<div class="card" style="width: 18rem;">
 			<div class="card-header">
 				Linguagens
 			  </div>
 			<ul class="list-group list-group-flush">
-			  <li class="list-group-item">HTML</li>
+			  <li class="list-group-item"><a target="_blank">HTML</a></li>
 			  <li class="list-group-item">CSS</li>
 			  <li class="list-group-item">Javascript</li>
 			</ul>
 		  </div>
 	</section>
-	
 </body>
+</section>
 </html>
