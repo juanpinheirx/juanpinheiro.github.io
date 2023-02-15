@@ -1,3 +1,6 @@
+
+
+
 .card-text {
 	font-size: 20px;
 	font-style: italic;
@@ -7,9 +10,7 @@
 	font-size: larger;
 }
 .card-body {
-	width: fit-content;
 	background-color: antiquewhite;
-	display: inline;
 }
 .list-group-item {
 	background-color: antiquewhite;
@@ -39,6 +40,7 @@
 }
 .row {
 	align-content: center;
+	margin-bottom: 6px;
 }
 
 .aside {
@@ -58,6 +60,17 @@
 	margin-left: 10px;
 	height: 0%;
 }
+
+.aboutMe {
+	margin-top: 10px;
+}
+
+.card-foot {
+	display: flex;
+	flex-direction: column;
+	margin-left: 0%;	
+}
+
 
 @media screen and (max-width: 600px) {
 	
